@@ -33,6 +33,13 @@ library.add(fasClock, fasPhone, fasEnvelope, farUser, fasTruckRampBox, fasTemper
 /* add font awesome icon component */
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
+/* GOOGLE FONT - POPPINS */
+import "@fontsource/poppins"
+import "@fontsource/poppins/100.css"
+import "@fontsource/poppins/200.css"
+import "@fontsource/poppins/500.css"
+import "@fontsource/poppins/900.css"
+
 
 
 Vue.config.productionTip = false
