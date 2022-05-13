@@ -12,6 +12,11 @@ export default {
 </script>
 
 <style lang="scss">
+/* style*/
+@import '@/assets/scss/style';
+/* colors palette */
+@import '@/assets/scss/variables.scss';
+
 
 
 </style>
