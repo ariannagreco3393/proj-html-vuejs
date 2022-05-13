@@ -1,5 +1,20 @@
 @import '~/node_modules/bootstrap/scss/bootstrap.scss';
+@import './partials/_commonRules';
+/* colors palette */
+@import "@/assets/scss/variables.scss";
+
 
 #app {
-    font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* TopBar */
+
+.topbar {
+  background-color: $top-bar;
+
+  .row {
+    height: 50px;
   }
+
+}

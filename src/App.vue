@@ -1,6 +1,20 @@
 <template>
   <div id="app">
-    <header id="site_header"></header>
+    <header id="site_header">
+      <div class="topbar">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-6">
+              <div class="hours d-flex align-items-center light_gray fs-7 font_100">
+                <font-awesome-icon icon="fa-solid fa-clock" />
+                <small class="ms-2">Open Hours: Mon - Sat - 9:00 - 18:00</small>
+              </div>
+            </div>
+            <div class="col-6"></div>
+          </div>
+        </div>
+      </div>
+    </header>
     <!-- /#site_header -->
     <main id="site_main"></main>
     <!-- /#site_main -->
@@ -157,6 +171,5 @@ export default {
 <style lang="scss">
 /* style*/
 @import "@/assets/scss/style";
-/* colors palette */
-@import "@/assets/scss/variables.scss";
+
 </style>

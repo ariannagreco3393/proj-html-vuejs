@@ -1,3 +1,15 @@
+/* colors palette */
+@import "@/assets/scss/variables.scss";
+
 img {
     max-width: 100%;
   }
+
+/* utility */
+.light_gray {
+  color: $light-gray;
+}
+
+.font_100 {
+  font-weight: 100;
+}
