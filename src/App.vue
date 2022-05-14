@@ -18,33 +18,7 @@ export default {
   },
   data() {
     return {
-      mainMenu: [
-        {
-          id: 1,
-          href: "#",
-          text: "HOME",
-        },
-        {
-          id: 2,
-          href: "#",
-          text: "ABOUT",
-        },
-        {
-          id: 3,
-          href: "#",
-          text: "SERVICES",
-        },
-        {
-          id: 4,
-          href: "#",
-          text: "PROCESS",
-        },
-        {
-          id: 5,
-          href: "#",
-          text: "TESTIMONIALS",
-        },
-      ],
+      
       secondaryMenu: [
         {
           title: "About",

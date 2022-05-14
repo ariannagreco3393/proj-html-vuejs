@@ -49,11 +49,7 @@
             <div
               class="main_menu d-flex justify-content-end align-items-center"
             >
-              <a href="#">HOME</a>
-              <a href="#">ABOUT</a>
-              <a href="#">SERVICES</a>
-              <a href="#">PROCESS</a>
-              <a href="#">TESTIMONIALS</a>
+              <a v-for="item in mainMenu" :key="item.id" :href="item.href">{{item.text}}</a>
               <div class="user text-light">
                 <font-awesome-icon icon="fa-regular fa-user" />
               </div>
@@ -69,6 +65,37 @@
 <script>
 export default {
   name: "headerComponent",
+  data() {
+    return {
+      mainMenu: [
+        {
+          id: 1,
+          href: "#",
+          text: "HOME",
+        },
+        {
+          id: 2,
+          href: "#",
+          text: "ABOUT",
+        },
+        {
+          id: 3,
+          href: "#",
+          text: "SERVICES",
+        },
+        {
+          id: 4,
+          href: "#",
+          text: "PROCESS",
+        },
+        {
+          id: 5,
+          href: "#",
+          text: "TESTIMONIALS",
+        },
+      ],
+    };
+  },
 };
 </script>
 
@@ -91,7 +118,7 @@ export default {
       background-color: rgba(3, 132, 132, 0.257);
     }
     .gen {
-        margin-left: -0.7rem;
+      margin-left: -0.7rem;
     }
   }
   .main_menu {
