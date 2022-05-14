@@ -28,6 +28,19 @@ button {
   font-weight: 100;
 }
 
+.font_900 {
+  font-weight: 900;
+}
+
 .text_green {
   color: $font-button-light;
+}
+
+.transparent_btn {
+  background-color: transparent;
+  border: 1px solid $font-button-dark;
+  color: $white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3px;
+  margin-left: 1rem;
 }

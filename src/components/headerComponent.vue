@@ -56,20 +56,26 @@
               <div class="user text-light">
                 <font-awesome-icon icon="fa-regular fa-user" />
               </div>
-              <getInTouch/>
+              <getInTouch />
             </div>
           </div>
           <!-- /main_menu -->
         </div>
-        <div class="row">
-          <div class="col-6">
-            <small>LOGISTICS SERVICES</small>
-            <h1>CARGO TRANSPORT</h1>
-            <p>
+        <div class="row title">
+          <div class="col-5">
+            <small class="text_green">LOGISTICS SERVICES</small>
+            <h1 class="display-4 text-light font_900">
+              CARGO <br />
+              TRANSPORT
+            </h1>
+            <p class="text-light">
               Fractional or esclusive road cargo transportation to all regions
               with small, medium and large vehicles.
             </p>
-            <getInTouch/>
+            <div class="cta">
+              <getInTouch />
+              <button class="transparent_btn">READ MORE</button>
+            </div>
           </div>
         </div>
       </div>
@@ -83,7 +89,7 @@ import getInTouch from "@/components/getInTouchComponent.vue";
 export default {
   name: "headerComponent",
   components: {
-      getInTouch
+    getInTouch,
   },
   data() {
     return {
@@ -124,7 +130,6 @@ export default {
 @import "@/assets/scss/partials/_commonRules";
 
 .jumbotron {
-  height: 600px;
   background-image: url("@/assets/img/bg-9.jpg");
   background-position: center;
   box-shadow: inset 0 0 0 2000px rgba(35, 34, 34, 0.564);
@@ -153,8 +158,23 @@ export default {
     .user {
       margin: 0 0.8rem;
     }
+  }
 
-  
+
+  .title {
+      padding: 5rem 0 10rem 0;
+    small {
+      font-size: 14px;
+      font-weight: 500;
+    }
+    button {
+      margin-left: 0;
+      margin-right: 1rem;
+    }
+    p {
+        font-size: 15px;
+        font-weight: 200;
+    }
   }
 }
 </style>
