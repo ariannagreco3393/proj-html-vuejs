@@ -45,26 +45,46 @@
             <a class="navbar-brand nex text_green" href="#">NEX</a>
             <a class="navbar-brand gen text-light" href="#">GEN</a>
           </div>
+          <!-- /logo -->
           <div class="col-9">
             <div
               class="main_menu d-flex justify-content-end align-items-center"
             >
-              <a v-for="item in mainMenu" :key="item.id" :href="item.href">{{item.text}}</a>
+              <a v-for="item in mainMenu" :key="item.id" :href="item.href">{{
+                item.text
+              }}</a>
               <div class="user text-light">
                 <font-awesome-icon icon="fa-regular fa-user" />
               </div>
-              <button class="get_in_touch">GET IN TOUCH</button>
+              <getInTouch/>
             </div>
+          </div>
+          <!-- /main_menu -->
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <small>LOGISTICS SERVICES</small>
+            <h1>CARGO TRANSPORT</h1>
+            <p>
+              Fractional or esclusive road cargo transportation to all regions
+              with small, medium and large vehicles.
+            </p>
+            <getInTouch/>
           </div>
         </div>
       </div>
     </section>
+    <!-- /jumbotron -->
   </header>
 </template>
 
 <script>
+import getInTouch from "@/components/getInTouchComponent.vue";
 export default {
   name: "headerComponent",
+  components: {
+      getInTouch
+  },
   data() {
     return {
       mainMenu: [
@@ -107,7 +127,7 @@ export default {
   height: 600px;
   background-image: url("@/assets/img/bg-9.jpg");
   background-position: center;
-  box-shadow: inset 0 0 0 2000px rgba(35, 34, 34, 0.643);
+  box-shadow: inset 0 0 0 2000px rgba(35, 34, 34, 0.564);
   .logo {
     font-weight: 500;
     .nex {
@@ -134,13 +154,7 @@ export default {
       margin: 0 0.8rem;
     }
 
-    .get_in_touch {
-      background-color: $font-button-dark;
-      color: $white;
-      padding: 0.5rem 1.5rem;
-      border-radius: 3px;
-      margin-left: 1rem;
-    }
+  
   }
 }
 </style>
