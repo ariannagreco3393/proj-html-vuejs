@@ -2,7 +2,7 @@
   <div id="app">
     <headerComponent/>
     <!-- /#site_header -->
-    <main id="site_main"></main>
+    <mainComponent/>
     <!-- /#site_main -->
     <footer id="site_footer"></footer>
     <!-- /#site_footer -->
@@ -11,10 +11,12 @@
 
 <script>
 import headerComponent from '@/components/headerComponent.vue'
+import mainComponent from '@/components/mainComponent.vue'
 export default {
   name: "App",
   components: {
     headerComponent,
+    mainComponent
   },
   data() {
     return {

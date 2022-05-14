@@ -28,12 +28,25 @@ button {
   font-weight: 100;
 }
 
+
+.font_500 {
+  font-weight: 500;
+}
+
+
 .font_900 {
   font-weight: 900;
 }
 
 .text_green {
   color: $font-button-light;
+}
+.text_dark_green {
+  color: $font-button-dark;
+}
+
+.bg_light {
+  background-color: $light-blue;
 }
 
 .transparent_btn {
@@ -43,4 +56,8 @@ button {
   padding: 0.5rem 1.5rem;
   border-radius: 3px;
   margin-left: 1rem;
+}
+
+.fs_7 {
+font-size: 12px;
 }

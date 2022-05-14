@@ -25,13 +25,15 @@ import { faQuoteRight as fasQuoteRight } from '@fortawesome/free-solid-svg-icons
 import { faFacebookF as fabFacebookF } from '@fortawesome/free-brands-svg-icons'
 import { faTwitter as fabTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedinIn as fabLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import { faGem as farGem } from '@fortawesome/free-regular-svg-icons'
+
 
 
 /* import font awesome icon component */
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 /* add icons to the library 👇 QUI AGGIUNGI IL NOME DELL'ICONA in camelCase*/
-library.add(fasClock, fasPhone, fasEnvelope, farUser, fasTruckRampBox, fasTemperatureLow, fasBoxesStacked, fasLocationDot, fasQuoteRight, fabFacebookF, fabTwitter, fabLinkedinIn) 
+library.add(fasClock, fasPhone, fasEnvelope, farUser, fasTruckRampBox, fasTemperatureLow, fasBoxesStacked, fasLocationDot, fasQuoteRight, fabFacebookF, fabTwitter, fabLinkedinIn, farGem) 
 
 /* add font awesome icon component */
 Vue.component('font-awesome-icon', FontAwesomeIcon)
