@@ -2,8 +2,22 @@
 @import "@/assets/scss/variables.scss";
 
 img {
-    max-width: 100%;
-  }
+  max-width: 100%;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+
+}
+
+button {
+  border: none;
+}
+
+.container {
+  max-width: 1200px;
+}
 
 /* utility */
 .light_gray {
@@ -12,4 +26,8 @@ img {
 
 .font_100 {
   font-weight: 100;
+}
+
+.text_green {
+  color: $font-button-light;
 }

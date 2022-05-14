@@ -160,5 +160,6 @@ export default {
 <style lang="scss">
 /* style*/
 @import "@/assets/scss/style";
+@import "@/assets/scss/partials/_commonRules";
 
 </style>
