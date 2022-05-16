@@ -8,10 +8,12 @@ $light-gray: rgba(188, 189, 189, 1);
 $ocra: rgba(189, 149, 66, 1);
 $top-bar: rgba(33, 51, 62, 1);
 $light-blue: rgba(218, 236, 237);
+$bg-square: rgb(26, 28, 30);
 
 
 
-@mixin button {
+@mixin square {
+    background-color: $bg-square ;
+    border-radius: 5px;
+    padding: 2rem;
 }
-
-

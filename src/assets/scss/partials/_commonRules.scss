@@ -28,6 +28,9 @@ button {
   font-weight: 100;
 }
 
+.font_200 {
+  font-weight: 200;
+}
 
 .font_500 {
   font-weight: 500;
@@ -49,6 +52,10 @@ button {
   background-color: $light-blue;
 }
 
+.bg_dark {
+  background-color: $font-dark;
+}
+
 .transparent_btn {
   background-color: transparent;
   border: 1px solid $font-button-dark;
@@ -61,3 +68,4 @@ button {
 .fs_7 {
 font-size: 12px;
 }
+

@@ -20,7 +20,7 @@
             <h2 class="font_900">in Transport</h2>
           </div>
           <div class="excellence_description mt-4">
-            <p class="">
+            <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Perspiciatis aspernatur nihil placeat iure quidem, odio nemo
               veritatis reiciendis molestiae dolorum quasi sapiente, accusantium
@@ -111,53 +111,5 @@ export default {
 @import "@/assets/scss/variables.scss";
 @import "@/assets/scss/partials/_commonRules";
 
-.who_we_are {
-  padding: 6rem 0;
-}
 
-.excellence {
-  gap: 0.5rem;
-  .light_excellence {
-    gap: 0.5rem;
-    border-radius: 5px;
-    padding: 0 0.5rem;
-  }
-  .diamond {
-    height: 30px;
-  }
-}
-
-.excellence_description {
-  margin-right: 100px;
-  font-weight: 200;
-  .important_paragraph {
-    font-style: italic;
-    background-color: rgba(218, 236, 237, 0.234);
-    border-left: 5px solid rgba(218, 236, 237);
-    padding: 0rem 2rem;
-  }
-}
-.camion {
-  border-bottom: 0.5px solid black;
-  .camion_img {
-    background-color: $light-blue;
-    padding: 0.3rem;
-    border-radius: 5px;
-    box-shadow: 2px 2px 5px #dedede;
-  }
-  img {
-    width: 70px;
-  }
-  .description {
-    margin-left: 1rem;
-    line-height: 10px;
-  }
-}
-
-.cartification_img {
-  img {
-    box-shadow: 2px 2px 5px #dedede;
-    margin-right: 1rem;
-  }
-}
 </style>
