@@ -8,7 +8,7 @@
     <section class="get_in_touch">
       <div class="container">
         <div class="row">
-          <div class="col-8">
+          <div class="col-7">
             <small class="text_green font_500">SEND A MESSAGE</small>
             <div class="excellence d-flex align-items-center mt-4">
               <h2 class="font_900">Get in</h2>
@@ -62,13 +62,37 @@
                   placeholder="Message"
                   class="form-control form"
                   id="exampleFormControlTextarea1"
-                  rows="8"
+                  rows="6"
                 ></textarea>
                 <button class="send mt-4">SEND</button>
               </div>
             </form>
           </div>
-          <div class="col-4"></div>
+          <div class="col-1"></div>
+          <div class="col-4">
+            <h5>Example Inc.</h5>
+            <p class="font_200">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </p>
+            <p class="font_200">
+              Architecto illo quisquam eveniet, natus sed quaerat.
+            </p>
+            <div class="details d-flex flex-column">
+              <div class="phone d-flex align-items-center">
+                <font-awesome-icon class="circle" icon="fa-solid fa-phone" />
+                <small class="ms-2">+1 (305) 1234-5678</small>
+              </div>
+              <div class="email d-flex align-items-center">
+                <font-awesome-icon class="circle" icon="fa-solid fa-envelope" />
+                <small class="ms-2">hello@example.com</small>
+              </div>
+              <div class="location d-flex align-items-center">
+                <font-awesome-icon class="circle" icon="fa-solid fa-location-dot" />
+                <small class="ms-2">Main Avenue, 987</small>
+              </div>
+              <button class="map_btn">VIEW MAP</button>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -114,6 +138,28 @@ export default {
     border-radius: 3px;
   }
 
-  
+  .details {
+    gap: 1rem;
+    .phone, .email, .location {
+        color: $font-button-dark;
+        
+    }
+    .circle {
+      width: 25px;
+      height: 25px;
+      background-color: #D9EBED;
+      padding: 0.4rem;
+      border-radius: 50%;
+      color: $font-button-dark;
+    }
+    .map_btn {
+      color: $font-button-dark;
+      width: 140px;
+      background-color: transparent;
+      border: 1px solid $font-button-dark;
+      padding: 0.5rem 1.5rem;
+      border-radius: 3px;
+    }
+  }
 }
 </style>
