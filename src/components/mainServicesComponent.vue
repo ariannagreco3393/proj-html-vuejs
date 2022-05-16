@@ -14,7 +14,7 @@
             needs in order to develop a produvtive, long-term partenrship.
           </p>
         </div>
-        <div class="col-4 text-end align-self-center">
+        <div class="col-4 text-end">
           <button class="transparent_btn">SEE ALL</button>
         </div>
       </div>
