@@ -44,6 +44,7 @@ button {
 .text_green {
   color: $font-button-light;
 }
+
 .text_dark_green {
   color: $font-button-dark;
 }
@@ -66,6 +67,58 @@ button {
 }
 
 .fs_7 {
-font-size: 12px;
+  font-size: 12px;
 }
 
+
+/*  form section (get in touch) */
+
+.get_in_touch {
+  padding: 6rem 0;
+
+  .form-group {
+    gap: 1rem;
+  }
+
+  .form {
+    background-color: #ececec;
+    border: none;
+    color: gray;
+  }
+
+  .send {
+    background-color: $font-button-dark;
+    color: $white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 3px;
+  }
+
+  .details {
+    gap: 1rem;
+
+    .phone,
+    .email,
+    .location {
+      color: $font-button-dark;
+
+    }
+
+    .circle {
+      width: 25px;
+      height: 25px;
+      background-color: #D9EBED;
+      padding: 0.4rem;
+      border-radius: 50%;
+      color: $font-button-dark;
+    }
+
+    .map_btn {
+      color: $font-button-dark;
+      width: 140px;
+      background-color: transparent;
+      border: 1px solid $font-button-dark;
+      padding: 0.5rem 1.5rem;
+      border-radius: 3px;
+    }
+  }
+}
