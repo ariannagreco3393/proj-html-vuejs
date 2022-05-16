@@ -92,7 +92,7 @@
   .square {
     @include square;
 
-    .truck_icon {
+    .main_icon {
       height: 25px;
       width: 25px;
       color: $font-button-light;
