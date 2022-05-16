@@ -4,92 +4,71 @@
     <mainServices />
     <procedure />
     <whatAreWeDoing />
-    <section class="main_services bg_dark">
+    <testimonials />
+    <section class="get_in_touch">
       <div class="container">
-        <div class="row text-center">
-          <small class="text_green font_500">CUSTOMER TESTIMONIALS</small>
-          <div
-            class="
-              excellence
-              d-flex
-              align-items-center
-              justify-content-center
-              mt-4
-            "
-          >
-            <h2 class="text-light font_900">Trusted</h2>
-            <h2 class="services text-light font_900">Feedback</h2>
-          </div>
-          <p class="font_200 m-2 text-light">
-            We work with innovative methodologies to ensure that the entire
-            delivery process <br />
-            is done from start to finish as planned
-          </p>
-        </div>
-        <div class="row mt-4">
-          <div class="col-4">
-            <div class="square text-light">
-              <img
-                height="30px"
-                class="testimonial_logo"
-                src="@/assets/img/logo-1.png"
-                alt=""
-              />
-              <p class="font_200 mt-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-                voluptatibus pariatur libero debitis quod et nesciunt adipisci
-                quae asperiores reprehenderit. Lorem ipsum dolor sit.
-              </p>
-              <div class="quote_icon d-flex justify-content-end">
-                <font-awesome-icon
-                  class="text-secondary fs-4"
-                  icon="fa-solid fa-quote-right"
-                />
+        <div class="row">
+          <div class="col-8">
+            <small class="text_green font_500">SEND A MESSAGE</small>
+            <div class="excellence d-flex align-items-center mt-4">
+              <h2 class="font_900">Get in</h2>
+              <div
+                class="
+                  light_excellence
+                  text_dark_green
+                  bg_light
+                  d-flex
+                  align-items-center
+                "
+              >
+                <h2 class="font_900">Touch</h2>
               </div>
             </div>
-          </div>
-          <div class="col-4">
-            <div class="square text-light">
-              <img
-                height="30px"
-                class="testimonial_logo"
-                src="@/assets/img/logo-2.png"
-                alt=""
-              />
-              <p class="font_200 mt-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-                voluptatibus pariatur libero debitis quod et nesciunt adipisci
-                quae asperiores reprehenderit. Lorem ipsum dolor sit.
-              </p>
-              <div class="quote_icon d-flex justify-content-end">
-                <font-awesome-icon
-                  class="text-secondary fs-4"
-                  icon="fa-solid fa-quote-right"
+            <p class="font_200 mt-2">
+              We will respond to your message as soon as possible.
+            </p>
+            <form>
+              <div class="form-group d-flex">
+                <input
+                  type="tesxt"
+                  class="form-control form"
+                  id="exampleFormControlInput1"
+                  placeholder="Name"
+                />
+                <input
+                  type="email"
+                  class="form-control form"
+                  id="exampleFormControlInput1"
+                  placeholder="Email"
                 />
               </div>
-            </div>
-          </div>
-          <div class="col-4">
-            <div class="square text-light">
-              <img
-                height="30px"
-                class="testimonial_logo"
-                src="@/assets/img/logo-3.png"
-                alt=""
-              />
-              <p class="font_200 mt-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
-                voluptatibus pariatur libero debitis quod et nesciunt adipisci
-                quae asperiores reprehenderit. Lorem ipsum dolor sit.
-              </p>
-              <div class="quote_icon d-flex justify-content-end">
-                <font-awesome-icon
-                  class="text-secondary fs-4"
-                  icon="fa-solid fa-quote-right"
+              <div class="form-group d-flex mt-2">
+                <input
+                  type="text"
+                  class="form-control form"
+                  id="exampleFormControlInput1"
+                  placeholder="Phone"
                 />
+                <select class="form-control form">
+                  <option>More Info</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                </select>
               </div>
-            </div>
+              <div class="form-group mt-2">
+                <textarea
+                  placeholder="Message"
+                  class="form-control form"
+                  id="exampleFormControlTextarea1"
+                  rows="8"
+                ></textarea>
+                <button class="send mt-4">SEND</button>
+              </div>
+            </form>
           </div>
+          <div class="col-4"></div>
         </div>
       </div>
     </section>
@@ -101,6 +80,7 @@ import whoWeAre from "@/components/whoWeAreComponent.vue";
 import mainServices from "@/components/mainServicesComponent.vue";
 import procedure from "@/components/procedureComponent.vue";
 import WhatAreWeDoing from "@/components/whatAreWeDoingComponent.vue";
+import testimonials from "@/components/testimonialsComponent.vue";
 export default {
   name: "mainComponent",
   components: {
@@ -108,6 +88,7 @@ export default {
     mainServices,
     procedure,
     WhatAreWeDoing,
+    testimonials,
   },
 };
 </script>
@@ -116,9 +97,23 @@ export default {
 @import "@/assets/scss/variables.scss";
 @import "@/assets/scss/partials/_commonRules";
 
-.square {
-  .testimonial_logo {
-    filter: invert(1);
+.get_in_touch {
+  padding: 6rem 0;
+  .form-group {
+    gap: 1rem;
   }
+  .form {
+    background-color: #ececec;
+    border: none;
+    color: gray;
+  }
+  .send {
+    background-color: $font-button-dark;
+    color: $white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 3px;
+  }
+
+  
 }
 </style>
