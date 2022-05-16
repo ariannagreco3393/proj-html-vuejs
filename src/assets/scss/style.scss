@@ -106,3 +106,54 @@
     }
   }
 }
+
+
+/* procedure section */
+
+.procedure {
+  padding: 6rem 0;
+  background-color: $bg-light-green;
+  .large_container {
+    max-width: 1400px;
+    margin: -30px auto 0;
+  }
+  .col {
+    width: 100%;
+  }
+  .line {
+    height: 4px;
+    color: $font-button-dark;
+  }
+  .number_line {
+    width: 25px;
+    height: 25px;
+    background-color: rgb(180, 206, 206);
+    border-radius: 50%;
+    p {
+      color: $font-button-dark;
+    }
+  }
+}
+
+/* what are we doing */
+
+.what_are_we_doing {
+  background-image: url("@/assets/img/bg-10.jpg");
+  background-position: center;
+  background-size: cover;
+
+  padding: 6rem 0 8rem;
+  .results {
+    background-color: rgba(3, 132, 132, 0.257);
+    padding: 0 0.5rem;
+    border-radius: 5px;
+  }
+  .result_number {
+    h4 {
+      color: $font-button-light;
+    }
+    h6 {
+      color: $white;
+    }
+  }
+}
