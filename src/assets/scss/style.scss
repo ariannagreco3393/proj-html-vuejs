@@ -19,6 +19,76 @@
 
 }
 
+/* header section */
+
+.jumbotron {
+  background-image: url("@/assets/img/bg-9.jpg");
+  background-position: center;
+  box-shadow: inset 0 0 0 2000px rgba(35, 34, 34, 0.564);
+
+  .logo {
+    font-weight: 500;
+
+    .nex {
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+      padding-left: 2rem;
+      padding-right: 3px;
+      background-color: rgba(3, 132, 132, 0.257);
+    }
+
+    .gen {
+      margin-left: -0.7rem;
+    }
+  }
+
+  .main_menu {
+    font-weight: 500;
+    font-size: 15px;
+    text-transform: uppercase;
+
+
+    a {
+      color: white;
+      padding: 0 1rem;
+
+      &:hover {
+        color: $font-button-dark;
+      }
+    }
+
+    .user {
+      margin: 0 0.8rem;
+
+      .icon_user {
+        &:hover {
+          color: $font-button-dark;
+        }
+      }
+    }
+  }
+
+
+  .title {
+    padding: 5rem 0 10rem 0;
+
+    small {
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    button {
+      margin-left: 0;
+      margin-right: 1rem;
+    }
+
+    p {
+      font-size: 15px;
+      font-weight: 200;
+    }
+  }
+}
+
 /* whoweare section */
 
 
@@ -88,6 +158,7 @@
     background-color: rgba(3, 132, 132, 0.257);
     padding: 0.3rem;
     border-radius: 5px;
+   
   }
 
   .square {
@@ -224,12 +295,13 @@
       background-color: #D9EBED;
       border-radius: 50%;
       color: $font-button-dark;
+
       .icon {
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-size: 15px ;
+        font-size: 15px;
       }
 
     }
@@ -241,6 +313,58 @@
       border: 1px solid $font-button-dark;
       padding: 0.5rem 1.5rem;
       border-radius: 3px;
+      &:hover{
+        background-color: black;
+        color: $white;
+      }
     }
   }
+}
+
+
+/* footer top */
+
+.footer_top {
+  background-color: $font-dark;
+  padding: 6rem 0;
+
+  .logo {
+    font-weight: 500;
+
+    .nex {
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+      padding-left: 2rem;
+      padding-right: 3px;
+      background-color: rgba(3, 132, 132, 0.257);
+    }
+
+    .gen {
+      margin-left: -0.7rem;
+    }
+  }
+
+  .transparent_btn {
+    margin: 0;
+  }
+
+  .wrapper {
+    @include square
+  }
+}
+
+/* footer bottom */
+
+.footer_bottom {
+  background-color: black;
+  font-size: 14px;
+
+  .row {
+    height: 70px;
+  }
+
+  span {
+    color: $font-button-dark;
+  }
+
 }

@@ -23,15 +23,5 @@ export default {
 @import "@/assets/scss/style";
 @import "@/assets/scss/partials/_commonRules";
 
-.footer_bottom {
-    background-color: black;
-    font-size: 14px;
-    .row {
-        height: 70px;
-    }
-    span {
-        color: $font-button-dark;
-    }
-  
-}
+
 </style>

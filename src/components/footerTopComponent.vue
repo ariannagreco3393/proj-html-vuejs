@@ -21,7 +21,7 @@
               <font-awesome-icon class="icon" icon="fa-solid fa-location-dot" />
               <small class="ms-2">Main Avenue, 987</small>
             </div>
-            <button class="transparent_btn mt-4">GET IN TOUCH</button>
+            <button class="transparent_btn hover_light_btn mt-4">GET IN TOUCH</button>
           </div>
         </div>
         <div
@@ -168,27 +168,5 @@ export default {
 @import "@/assets/scss/variables.scss";
 @import "@/assets/scss/partials/_commonRules";
 
-.footer_top {
-  background-color: $font-dark;
-  padding: 6rem 0;
-  .logo {
-    font-weight: 500;
-    .nex {
-      border-top-left-radius: 20px;
-      border-bottom-left-radius: 20px;
-      padding-left: 2rem;
-      padding-right: 3px;
-      background-color: rgba(3, 132, 132, 0.257);
-    }
-    .gen {
-      margin-left: -0.7rem;
-    }
-  }
-  .transparent_btn {
-    margin: 0;
-  }
-  .wrapper {
-      @include square
-  }
-}
+
 </style>

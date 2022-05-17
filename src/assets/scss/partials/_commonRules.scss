@@ -13,6 +13,9 @@ a {
 
 button {
   border: none;
+  &:hover{
+    background-color: black;
+  }
 }
 
 .container {
@@ -66,8 +69,14 @@ button {
   margin-left: 1rem;
 }
 
+.hover_light_btn {
+  &:hover {
+    background-color: $white;
+    color: black;
+  }
+}
+
 .fs_7 {
   font-size: 12px;
 }
-
 

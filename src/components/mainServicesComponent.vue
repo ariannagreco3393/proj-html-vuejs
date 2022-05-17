@@ -15,7 +15,7 @@
           </p>
         </div>
         <div class="col-4 text-end">
-          <button class="transparent_btn">SEE ALL</button>
+          <button class="transparent_btn hover_light_btn">SEE ALL</button>
         </div>
       </div>
       <div class="row">
