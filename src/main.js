@@ -27,6 +27,7 @@ import { faTwitter as fabTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedinIn as fabLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 import { faGem as farGem } from '@fortawesome/free-regular-svg-icons'
 import { faArrowRight as fasArrowRight } from '@fortawesome/free-solid-svg-icons'
+import { faAngleRight as fasAngleRight } from '@fortawesome/free-solid-svg-icons'
 
 
 
@@ -35,7 +36,7 @@ import { faArrowRight as fasArrowRight } from '@fortawesome/free-solid-svg-icons
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 /* add icons to the library 👇 QUI AGGIUNGI IL NOME DELL'ICONA in camelCase*/
-library.add(fasClock, fasArrowRight, fasPhone, fasEnvelope, farUser, fasTruckRampBox, fasTemperatureLow, fasBoxesStacked, fasLocationDot, fasQuoteRight, fabFacebookF, fabTwitter, fabLinkedinIn, farGem,) 
+library.add(fasClock, fasArrowRight, fasPhone, fasEnvelope, farUser, fasTruckRampBox, fasTemperatureLow, fasBoxesStacked, fasLocationDot, fasQuoteRight, fabFacebookF, fabTwitter, fabLinkedinIn, farGem, fasAngleRight) 
 
 /* add font awesome icon component */
 Vue.component('font-awesome-icon', FontAwesomeIcon)
