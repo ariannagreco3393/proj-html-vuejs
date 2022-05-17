@@ -19,5 +19,8 @@ export default {
   padding: 0.5rem 1.5rem;
   border-radius: 3px;
   margin-left: 1rem;
+  &:hover {
+    background-color: black;
+  }
 }
 </style>
