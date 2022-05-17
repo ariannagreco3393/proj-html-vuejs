@@ -21,9 +21,7 @@ export default {
 @import "@/assets/scss/variables.scss";
 @import "@/assets/scss/partials/_commonRules";
 
-.container {
-  max-width: 1200px;
-}
+
 .footer_top {
   background-color: $font-dark;
   padding: 6rem 0;

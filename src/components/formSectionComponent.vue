@@ -73,18 +73,24 @@
           </p>
           <div class="details d-flex flex-column">
             <div class="phone d-flex align-items-center">
-              <font-awesome-icon class="circle" icon="fa-solid fa-phone" />
+              <div class="circle">
+                <font-awesome-icon class="icon" icon="fa-solid fa-phone" />
+              </div>
               <small class="ms-2">+1 (305) 1234-5678</small>
             </div>
             <div class="email d-flex align-items-center">
-              <font-awesome-icon class="circle" icon="fa-solid fa-envelope" />
+              <div class="circle">
+                <font-awesome-icon class="icon" icon="fa-solid fa-envelope" />
+              </div>
               <small class="ms-2">hello@example.com</small>
             </div>
             <div class="location d-flex align-items-center">
-              <font-awesome-icon
-                class="circle"
-                icon="fa-solid fa-location-dot"
-              />
+              <div class="circle">
+                <font-awesome-icon
+                  class="icon"
+                  icon="fa-solid fa-location-dot"
+                />
+              </div>
               <small class="ms-2">Main Avenue, 987</small>
             </div>
             <button class="map_btn">VIEW MAP</button>
@@ -97,8 +103,8 @@
 
 <script>
 export default {
-    name: 'formSection'
-}
+  name: "formSection",
+};
 </script>
 
 <style lang="scss" scoped>
