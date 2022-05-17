@@ -25,9 +25,9 @@
             <small class="ms-2">+1 (305) 1234-5678</small>
             <font-awesome-icon class="ms-4" icon="fa-solid fa-envelope" />
             <small class="ms-2">hello@example.com</small>
-            <font-awesome-icon class="ms-4" icon="fa-brands fa-facebook-f" />
-            <font-awesome-icon class="ms-4" icon="fa-brands fa-twitter" />
-            <font-awesome-icon class="ms-4" icon="fa-brands fa-linkedin-in" />
+            <font-awesome-icon class="fb ms-4" icon="fa-brands fa-facebook-f" />
+            <font-awesome-icon class="twitter ms-4" icon="fa-brands fa-twitter" />
+            <font-awesome-icon class="linkedin ms-4" icon="fa-brands fa-linkedin-in" />
           </div>
         </div>
         <!-- /info_details -->
@@ -35,3 +35,21 @@
     </div>
   </section>
 </template>
+
+<script>
+export default {
+  name: 'topbarComponent'
+}
+</script>
+
+<style lang="scss" scoped>
+.fb:hover {
+  color: #3B5998;
+}
+.linkedin:hover {
+  color: #2764AC;
+}
+.twitter:hover {
+  color: #329CEB;
+}
+</style>
