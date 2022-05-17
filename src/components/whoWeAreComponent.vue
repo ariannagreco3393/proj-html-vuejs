@@ -1,5 +1,7 @@
 <template>
   <section class="who_we_are">
+    <a id="about"></a>
+
     <div class="container">
       <div class="row">
         <div class="col-9">
@@ -110,6 +112,4 @@ export default {
 <style lang="scss" scoped>
 @import "@/assets/scss/variables.scss";
 @import "@/assets/scss/partials/_commonRules";
-
-
 </style>

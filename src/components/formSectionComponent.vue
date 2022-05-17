@@ -1,5 +1,7 @@
 <template>
   <section class="get_in_touch">
+    <a id="getintouch"></a>
+
     <div class="container">
       <div class="row">
         <div class="col-7">

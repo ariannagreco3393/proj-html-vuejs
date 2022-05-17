@@ -1,5 +1,7 @@
 <template>
-  <button class="get_in_touch">GET IN TOUCH</button>
+  <form action="#getintouch">
+    <button class="get_in_touch">GET IN TOUCH</button>
+  </form>
 </template>
 
 <script>

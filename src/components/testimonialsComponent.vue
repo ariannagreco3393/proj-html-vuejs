@@ -1,5 +1,7 @@
 <template>
   <section class="testimonials bg_dark">
+    <a id="testimonials"></a>
+
     <div class="container">
       <div class="row text-center">
         <small class="text_green font_500">CUSTOMER TESTIMONIALS</small>

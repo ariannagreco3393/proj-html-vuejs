@@ -1,5 +1,7 @@
 <template>
   <section class="procedure">
+    <a id="process"></a>
+
     <div class="container">
       <div class="row text-center">
         <small class="text_green font_500">HOW IT WORKS IN PRACTICE</small>

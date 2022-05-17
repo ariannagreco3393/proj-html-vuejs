@@ -1,11 +1,11 @@
 <template>
   <header id="site_header">
-    <topBar/>
+    <topBar />
     <!-- /topbar -->
     <section class="jumbotron img-fluid">
       <div class="container">
         <div class="row py-3">
-          <logoComponent/>
+          <logoComponent />
           <!-- /logo -->
           <div class="col-9">
             <div
@@ -15,7 +15,10 @@
                 item.text
               }}</a>
               <div class="user text-light">
-                <font-awesome-icon class="icon_user" icon="fa-regular fa-user" />
+                <font-awesome-icon
+                  class="icon_user"
+                  icon="fa-regular fa-user"
+                />
               </div>
               <getInTouch />
             </div>
@@ -33,9 +36,11 @@
               Fractional or esclusive road cargo transportation to all regions
               with small, medium and large vehicles.
             </p>
-            <div class="cta">
+            <div class="cta d-flex">
               <getInTouch />
-              <button class="transparent_btn">READ MORE</button>
+              <form action="#about">
+                <button class="transparent_btn">READ MORE</button>
+              </form>
             </div>
           </div>
         </div>
@@ -54,7 +59,7 @@ export default {
   components: {
     getInTouch,
     topBar,
-    logoComponent
+    logoComponent,
   },
   data() {
     return {
@@ -66,22 +71,22 @@ export default {
         },
         {
           id: 2,
-          href: "#",
+          href: "#about",
           text: "ABOUT",
         },
         {
           id: 3,
-          href: "#",
+          href: "#services",
           text: "SERVICES",
         },
         {
           id: 4,
-          href: "#",
+          href: "#process",
           text: "PROCESS",
         },
         {
           id: 5,
-          href: "#",
+          href: "#testimonials",
           text: "TESTIMONIALS",
         },
       ],
