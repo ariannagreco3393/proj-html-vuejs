@@ -240,9 +240,11 @@
 
 /* testimonials */
 .square {
-  .testimonial_logo {
-    filter: invert(1);
-  }
+  @include square
+}
+
+.testimonial_logo {
+  filter: invert(1);
 }
 
 .testimonials {
