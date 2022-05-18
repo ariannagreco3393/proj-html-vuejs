@@ -26,12 +26,14 @@
           <form>
             <div class="form-group d-flex">
               <input
+                required
                 type="tesxt"
                 class="form-control form"
                 id="exampleFormControlInput1"
                 placeholder="Name"
               />
               <input
+                required
                 type="email"
                 class="form-control form"
                 id="exampleFormControlInput1"
@@ -40,6 +42,7 @@
             </div>
             <div class="form-group d-flex mt-2">
               <input
+                required
                 type="text"
                 class="form-control form"
                 id="exampleFormControlInput1"
@@ -55,6 +58,7 @@
             </div>
             <div class="form-group mt-2">
               <textarea
+                required
                 placeholder="Message"
                 class="form-control form"
                 id="exampleFormControlTextarea1"
